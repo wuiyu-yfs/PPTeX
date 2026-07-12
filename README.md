@@ -364,7 +364,7 @@ presentation.pptex
 
 ## 阶段 1：数据模型与状态管理（3 天）
 
-**阶段目标：**完成所有 TypeScript 类型定义，实现 Zustand store，编写段落解析器，通过单元测试。
+**阶段目标：** 完成所有 TypeScript 类型定义，实现 Zustand store，编写段落解析器，通过单元测试。
 
 ### 具体步骤
 
@@ -423,7 +423,7 @@ presentation.pptex
 
 ## 阶段 2：文件处理（2 天）
 
-**阶段目标：**实现 \.pptex 格式的读写，完成文件打开/保存的完整闭环。
+**阶段目标：** 实现 \.pptex 格式的读写，完成文件打开/保存的完整闭环。
 
 ### 具体步骤
 
@@ -487,7 +487,7 @@ presentation.pptex
 
 ## 阶段 3：渲染引擎（4 天）
 
-**阶段目标：**实现 KaTeX 段落渲染、幻灯片预览组件、组编辑视图，完成只读可视化界面。
+**阶段目标：** 实现 KaTeX 段落渲染、幻灯片预览组件、组编辑视图，完成只读可视化界面。
 
 ### 具体步骤
 
@@ -558,7 +558,7 @@ presentation.pptex
 
 ## 阶段 4：自动分页（3 天）
 
-**阶段目标：**实现自动分页计算引擎，支持拖拽调整分页线。
+**阶段目标：** 实现自动分页计算引擎，支持拖拽调整分页线。
 
 ### 具体步骤
 
@@ -630,7 +630,7 @@ function paginateModule(module: Module, slideHeight: number, theme: Theme): Slid
 
 ## 阶段 5：源码编辑器集成（2 天）
 
-**阶段目标：**集成 Monaco Editor 作为 LaTeX 源码区，支持语法高亮和错误提示。
+**阶段目标：** 集成 Monaco Editor 作为 LaTeX 源码区，支持语法高亮和错误提示。
 
 ### 具体步骤
 
@@ -700,7 +700,7 @@ function paginateModule(module: Module, slideHeight: number, theme: Theme): Slid
 
 ## 阶段 6：双向同步与富文本编辑（7 天）—— 核心 MVP 阶段
 
-**阶段目标：**实现段落可编辑、格式化工具栏、快捷键、可视化与源码双向同步，完成核心 MVP 闭环。
+**阶段目标：** 实现段落可编辑、格式化工具栏、快捷键、可视化与源码双向同步，完成核心 MVP 闭环。
 
 ### 具体步骤
 
@@ -844,7 +844,7 @@ function paginateModule(module: Module, slideHeight: number, theme: Theme): Slid
 
 ## 阶段 7：页编辑与 Grid（4 天）
 
-**阶段目标：**实现页编辑视图，支持 Grid 列宽拖拽、内容块拖放分配。
+**阶段目标：** 实现页编辑视图，支持 Grid 列宽拖拽、内容块拖放分配。
 
 ### 具体步骤
 
@@ -922,7 +922,7 @@ function paginateModule(module: Module, slideHeight: number, theme: Theme): Slid
 
 ## 阶段 8：导出功能（5 天）
 
-**阶段目标：**实现三种导出：放映版 HTML、打印讲义 PDF、LaTeX 源文件。
+**阶段目标：** 实现三种导出：放映版 HTML、打印讲义 PDF、LaTeX 源文件。
 
 ### 具体步骤
 
@@ -1026,7 +1026,7 @@ function paginateModule(module: Module, slideHeight: number, theme: Theme): Slid
 
 ## 阶段 9：模板与样式（2 天）
 
-**阶段目标：**实现模块模板库和全局主题系统。
+**阶段目标：** 实现模块模板库和全局主题系统。
 
 ### 具体步骤
 
@@ -1124,7 +1124,7 @@ interface Theme {
 
 ## 阶段 10：测试、优化与 PWA（4 天）
 
-**阶段目标：**性能优化、虚拟滚动、完善测试、PWA 支持，达到生产就绪。
+**阶段目标：** 性能优化、虚拟滚动、完善测试、PWA 支持，达到生产就绪。
 
 ### 具体步骤
 
@@ -1200,7 +1200,7 @@ interface Theme {
 
 ## 阶段 11：部署（1 天）
 
-**阶段目标：**配置 CI/CD，部署到 Vercel 或其他平台，实现在线可访问。
+**阶段目标：** 配置 CI/CD，部署到 Vercel 或其他平台，实现在线可访问。
 
 ### 具体步骤
 
